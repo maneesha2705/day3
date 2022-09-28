@@ -5,7 +5,7 @@ int main() {
   bool is_prime = true;
   cout << "Enter two numbers (intervals): ";
   cin >> low >> high;
-  cout << "\nPrime numbers between " << low << " and " << high << " are: " << endl;
+  cout << "\ncomposite numbers between " << low << " and " << high << " are: " << endl;
   while (low < high) {
     is_prime = false;
     if (low == 2 ) {
